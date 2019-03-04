@@ -341,7 +341,7 @@ footer {
 
 @media screen and (max-width: 497px) {
 
-	#typedi {
+#typedi {
 	letter-spacing: .8px;
 	/*display: flex;*/
 	
@@ -367,4 +367,27 @@ footer {
 	display: none;
 }
 
+.all-info {
+	width: 90%;
+}
+
+.school {
+	flex-direction: column;
+}
+
+.school-name {
+	font-weight: 700;
+}
+
+.job-title {
+	flex-direction: column;
+}
+
+.job-name {
+	font-weight: 700;
+}
+
+.contact-box {
+	width: 72%;
+}
 }

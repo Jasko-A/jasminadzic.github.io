@@ -108,7 +108,7 @@ class School extends React.Component {
         {
             return(
                 React.createElement('div',{className: this.props.className},
-                    React.createElement('div',{id: this.props.id},this.state.davis_text[0]),
+                    React.createElement('div',{id: this.props.id, className: "school-name"},this.state.davis_text[0]),
                     React.createElement('div',{className: "duration"},this.state.davis_text[1])
                 )
             );
@@ -117,7 +117,7 @@ class School extends React.Component {
         {
             return(
                 React.createElement('div',{className: this.props.className},
-                    React.createElement('div',{id: this.props.id},this.state.deanza_text[0]),
+                    React.createElement('div',{id: this.props.id, className: "school-name"},this.state.deanza_text[0]),
                     React.createElement('div',{className: "duration"},this.state.deanza_text[1])
                 )
             );
@@ -215,7 +215,7 @@ class Work extends React.Component {
                 React.createElement('div', {className: "job-desc"},
                     React.createElement('img',{src:"./images/SABRO_main_logo.png", id: "sabro-logo"}),
                     React.createElement('div',{className: "job-title"},
-                        React.createElement('div',{},this.state.jobs[0]),
+                        React.createElement('div',{className: "job-name"},this.state.jobs[0]),
                         React.createElement('div',{},this.state.dates[0])
                     ),
                     React.createElement('div',{className: "job-position"},this.state.roles[0])
@@ -224,7 +224,7 @@ class Work extends React.Component {
                 React.createElement('div',{className: "job-desc"},
                     React.createElement('img',{src:"./images/etainpower.png", id: "etain-logo"}),
                     React.createElement('div',{className: "job-title"},
-                        React.createElement('div',{},this.state.jobs[1]),
+                        React.createElement('div',{className: "job-name"},this.state.jobs[1]),
                         React.createElement('div',{},this.state.dates[1])
                     ),
                     React.createElement('div',{className: "job-position"},this.state.roles[1])
@@ -232,7 +232,7 @@ class Work extends React.Component {
                 React.createElement('div',{className: "job-desc"},
                     React.createElement('img',{src:"./images/unitrans.jpg", id: "uni-logo"}),
                     React.createElement('div',{className: "job-title"},
-                        React.createElement('div',{},this.state.jobs[2]),
+                        React.createElement('div',{className: "job-name"},this.state.jobs[2]),
                         React.createElement('div',{},this.state.dates[2])
                     ),
                     React.createElement('div',{className: "job-position"},this.state.roles[2])
@@ -240,7 +240,7 @@ class Work extends React.Component {
                 React.createElement('div',{className: "job-desc"},
                     React.createElement('img',{src:"./images/santaclara.png", id: "santa-logo"}),
                     React.createElement('div',{className: "job-title"},
-                        React.createElement('div',{},this.state.jobs[3]),
+                        React.createElement('div',{className: "job-name"},this.state.jobs[3]),
                         React.createElement('div',{},this.state.dates[3])
                     ),
                     React.createElement('div',{className: "job-position"},this.state.roles[3])
